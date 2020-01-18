@@ -16,7 +16,7 @@ namespace MyFirstContainerApp
     {
         public Startup(IConfiguration configuration)
         {
-            Configuration = configurationnnn;
+            Configuration = configuration;
         }
 
         public IConfiguration Configuration { get; }
